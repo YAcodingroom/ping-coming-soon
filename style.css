@@ -89,7 +89,7 @@ main {
 
 #-error {
     /* display */
-    display: none;
+    display: block;
 
     /* box model */
     margin-bottom: 20px;
