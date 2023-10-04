@@ -9,10 +9,13 @@ $(".subscribe-form").validate({
     },
     onfocusout: function () {
         changeCSS();
+    },
+    showError: function () {
+        changeCSS();
     }
 });
 
 jQuery.extend(jQuery.validator.messages, {
-    required: "",
-    email: "",
+    required: "Whoops! It looks like you forgot to add your email",
+    email: "Please provide a valid email address",
 });
