@@ -87,7 +87,7 @@ main {
     color: hsl(223, 100%, 88%);
 }
 
-.error-text {
+#-error {
     /* display */
     display: none;
 
@@ -224,7 +224,7 @@ footer {
         background: hsl(223, 100%, 73%);
     }
     
-    .error-text {
+    #-error {
         /* box model */
         padding-left: 30px;
 
