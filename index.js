@@ -1,5 +1,4 @@
 function changeCSS() {
-    $(".error-text").css("display", "block");
     $(".email").css("border", "1px solid hsl(354, 100%, 66%)");
 }
 
@@ -8,9 +7,6 @@ $(".subscribe-form").validate({
         changeCSS();
     },
     onfocusout: function () {
-        changeCSS();
-    },
-    showError: function () {
         changeCSS();
     }
 });
