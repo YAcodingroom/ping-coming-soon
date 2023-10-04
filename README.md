@@ -27,7 +27,7 @@ Users should be able to:
 ![active](screenshot/active.png)
 
 ### Links
-- Live Site URL: 
+- Live Site URL: https://yacodingroom.github.io/ping-coming-soon/
 
 ## My process
 ### Built with
